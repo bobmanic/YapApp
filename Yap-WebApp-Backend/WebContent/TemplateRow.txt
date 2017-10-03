@@ -1,0 +1,40 @@
+<li class="review-block media-block media-block--12">
+	<div class="media-avatar">
+	    <div class="photo-box pb-60s">
+	           <a href="/user_details?userid=wORrG1N4Dm3S_8M2TETNZQ">
+	               <img alt="" class="photo-box-img" height="60" src="&[imgurl]&" width="60">
+	           </a>
+	   	</div>
+	      </div>
+	      
+	      <div class="media-story">
+		<div class="feed-content">
+	      		
+	      		<div class="media-title item-title clearfix">
+	          		<div class="title-text">
+	                       &[list-item-title]&		
+	            	</div>
+	            	</br>		        		    
+	      		</div>
+	      		
+	      		<div class="item-description">
+	      			<div class="biz-rating biz-rating-very-large clearfix">
+	      				<div>                
+	   					<div class="rating-very-large">
+	       					&[X-Star]&
+	   					</div>
+	        		</div>
+	          			<span class="rating-qualifier">
+	      					&[list-item-subtitle]&
+	  					</span>
+	  				</div>
+	
+	      			<p class="js-content-expandable">
+	              		&[small-data]&
+	      			</p>
+	
+	              	&[rate-review-feedback]&
+	  			</div>
+	  		</div>
+	  	</div>
+</li>

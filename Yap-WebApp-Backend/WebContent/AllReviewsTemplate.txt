@@ -1,0 +1,128 @@
+<html lang="en">
+  <head>
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+	
+	
+	<link rel="stylesheet" type="text/css" media="all" href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" media="all" href="http://v4-alpha.getbootstrap.com/examples/starter-template/starter-template.css">
+	<link rel="stylesheet" type="text/css" media="all" href="http://s3-media4.fl.yelpcdn.com/assets/2/www/css/a0ae6f4e7b85/www-pkg.css">
+	<link rel="stylesheet" type="text/css" media="all" href="http://s3-media2.fl.yelpcdn.com/assets/2/www/css/6ef718ab674f/homepage.css">
+	
+	<style>
+		.panel {
+			color:black;
+			background-color:white;
+		}
+		
+		.dropdown {
+			float: none;
+		    line-height: 19px;
+		    padding: 9px 10px 11px;
+		    text-decoration: none;
+		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+		    color:  #fff;
+		    font-size: 100%;
+		}
+		
+		.navbar .nav > li > a {
+		    float: none;
+		    line-height: 19px;
+		    padding: 9px 10px 11px;
+		    text-decoration: none;
+		    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+		    color:  #fff;
+		    font-size: 150%;
+		}
+	
+		header {
+		    background-color:white;
+		    color:black;
+		    text-align:center;
+		    padding:5px;
+		}
+
+		section {
+			margin-top: 50px;
+		    margin-bottom: 50px;
+		    margin-right: 150px;
+		    margin-left: 150px;
+			width:350px;
+			float:center;
+			padding:5px; 	 
+		}
+		footer {
+			background-color:black;
+			color:white;
+			clear:both;
+			text-align:center;
+			padding:5px; 	 
+		}
+	</style>			    
+	
+    <title>Reviews</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-dark bg-inverse">
+      <a class="navbar-brand">Yap</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item active">
+          <a class="nav-link" href="$businesses$">Business Reviews <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="$business-registration$">Add New Business</a>
+        </li>
+        <li class="dropdown pull-right">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">$user-name$<span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+          	<li>
+          		<a href="/Yap/SearchReviewsPage">Search in Reviews</a>
+          	</li>          
+          	<li>
+          		<a href="/Yap/UserReviews">My Reviews</a>
+          	</li>
+          	<li role="sperator" class="divider"></li>
+          	devconsole
+          	<li>
+          		<a href="/Yap/Logout">Log Out</a>
+          	</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+		
+	<div class="content">
+		<div class="panel">	  		
+				<!-- START Business Listings -->	
+				<section>
+					<ul class="ylist ylist-bordered search-results">
+					generatedcontent
+					</ul>
+				</section>	 
+				<!-- END Business Listings -->			
+		</div>			
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="http://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

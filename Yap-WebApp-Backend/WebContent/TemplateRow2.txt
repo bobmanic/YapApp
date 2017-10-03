@@ -1,0 +1,25 @@
+<li class="review-block media-block media-block--12">		      
+	      <div class="media-story">
+		<div class="feed-content">
+	      		
+	      		<div class="media-title item-title clearfix">
+	          		<div class="title-text">
+	                       &[list-item-title]&		
+	            	</div>
+	            	</br>		        		    
+	      		</div>
+	      			
+	              	<div class="review-footer clearfix">
+					   <div class="review-footer-actions pull-right clearfix">					   
+					   		<a class="chiclet-link show-tooltip" href="/Yap/DeleteApp?app_id=&[app_id]&&user_name=&[user_name]&">
+					   		<i class="i ig-common_sprite i-18x18_trash-common_sprite"></i>
+					   		<span class="tooltip-wrapper">
+					   			<span class="tooltip">Delete App Access</span>
+					   		</span>
+					   		</a>
+					   </div>
+					</div>
+					
+	  			</div>
+	  		</div>	  	
+</li>

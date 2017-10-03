@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <title>Welcome to Yap!!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+  .jumbotron {
+  	  margin-top: 0px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      margin-left: 0px;
+      background-color: #0487DE;
+      color: #fff;
+  }
+  
+  .c-select {
+      background-color: #fff;
+      color: #0487DE;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <p>Welcome to Yap! Search for reviews here!</p>  
+  <div class="container">
+	  <form action="/Yap/SearchReviews" method="post" role="form">
+	  <fieldset>
+		<div class="form-group"> 
+			<input type="text" class="form-control" size="50" name="key" id="key" placeholder="Enter Search Phrase Here." required>
+		</div>
+	    <button type="submit" class="btn btn-danger" value="Submit">Search</button>
+	    <a type="cancel" class="btn btn-danger" href="/Yap/AllBusiness">Cancel</a>
+	    </fieldset>	    
+	  </form>     
+  </div>
+</div>
+
+</body>
+</html>

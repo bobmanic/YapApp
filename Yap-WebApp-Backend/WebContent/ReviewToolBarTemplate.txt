@@ -1,0 +1,39 @@
+<div class="rateReview voting-feedback" data-review-id="JYHRhOcipTWwUoMH8SDr4g">
+   <p class="voting-intro voting-prompt">
+   "Was this review helpful?
+   </p>
+   <ul class="voting-buttons" data-csrf-token="1284fdd90aa0a1aced82173dbac4c4cf6216db9ce164d20f2a02d6853007dba6">
+   <li class="vote-item inline-block">
+   <a href="javascript:;" rel="useful" class="ybtn ybtn-small useful"><span  class="i-wrap ig-wrap-common i-ufc-useful-common-wrap button-content"><i  class="i ig-common i-ufc-useful-common"></i>     <span class="vote-type">Useful</span>
+   <span class="count"></span></span></a>
+   </li>
+
+   <li class="vote-item inline-block">
+   <a href="javascript:;" rel="funny" class="ybtn ybtn-small funny"><span  class="i-wrap ig-wrap-common i-ufc-funny-common-wrap button-content"><i  class="i ig-common i-ufc-funny-common"></i>     <span class="vote-type">Funny</span>
+   <span class="count"></span></span></a>
+   </li>
+
+   <li class="vote-item inline-block">
+   <a href="javascript:;" rel="cool" class="ybtn ybtn-small cool"><span  class="i-wrap ig-wrap-common i-ufc-cool-common-wrap button-content"><i  class="i ig-common i-ufc-cool-common"></i>     <span class="vote-type">Cool</span>
+   <span class="count"></span></span></a>
+   </li>
+   
+   </ul>
+ </div>
+ <br>  
+ <div class="review-footer clearfix">
+   <div class="review-footer-actions pull-right clearfix">
+   <a class="chiclet-link show-tooltip" href="/Yap/EditReview?business_id=$business_id$&user_name=$user_name$">
+   <i class="i ig-common_sprite i-18x18_edit-common_sprite"></i>
+   <span class="tooltip-wrapper">
+   <span class="tooltip">Edit review</span>
+   </span>
+   </a>
+   <a class="chiclet-link show-tooltip" href="/Yap/DeleteReview?business_id=$business_id$&user_name=$user_name$">
+   <i class="i ig-common_sprite i-18x18_trash-common_sprite"></i>
+   <span class="tooltip-wrapper">
+   <span class="tooltip">Delete review</span>
+   </span>
+   </a>
+   </div>
+ </div>

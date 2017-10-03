@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="2dp"
+        android:src="@drawable/user_60_square"
+        />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="User Name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imgUser"/>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/tvUserName"
+        android:gravity="end"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX="0.60"
+        android:scaleY="0.60"
+        app:layout_constraintTop_toBottomOf="@id/tvUserName"
+        app:layout_constraintStart_toEndOf="@id/imgUser"
+        android:gravity="start"
+        android:numStars="5"
+        android:rating="4.5"
+        />
+
+    <LinearLayout
+        android:id="@+id/linlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ratingBar"
+        app:layout_constraintStart_toEndOf="@id/imgUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tvCool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cool"
+            android:textSize="12sp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/tvFunny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Funny"
+            android:textSize="12sp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/tvUseful"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Useful"
+            android:textSize="12sp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/linlayout"
+        app:layout_constraintStart_toEndOf="@id/imgUser"
+        android:text="Review"
+        android:paddingTop="5dp"/>
+</android.support.constraint.ConstraintLayout>

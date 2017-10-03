@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Added New Yap Business</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style>
+.jumbotron {
+background-color: #0487DE;
+color: #fff;
+}
+</style>
+</head>
+<body>
+<h1 align=center>Yap Business Added</h1>				
+<a href="/Yap/AllBusiness" class="btn btn-danger" >Continue</a>
+</body>
+</html>

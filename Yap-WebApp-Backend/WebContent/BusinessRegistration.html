@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <title>Welcome to Yap!!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+  .jumbotron {
+  	  margin-top: 0px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      margin-left: 0px;
+      background-color: #0487DE;
+      color: #fff;
+  }
+  
+  .c-select {
+      background-color: #fff;
+      color: #0487DE;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <p>Welcome to Yap! Submit your Business here!</p>  
+  <div class="container">
+	  <form action="/Yap/BusinessRegistration" method="post" role="form">
+	  <fieldset>
+		<div class="form-group"> 
+			<input type="text" class="form-control" size="50" name="business_name" id="business_name" placeholder="Enter Business's Name" required>
+		</div>
+		<fieldset class="form-group"> 
+			<select name="type" class="c-select col-xs-12" required>				
+				<option value="cafe">Cafe</option>
+				<option selected value="restaurant">Restaurant</option>
+				<option value="hotel">Hotel</option>
+				<option value="bar">Bar</option>
+				<option value="shop">Shop</option>
+			</select>
+		</fieldset>
+	    <div class="form-group">      
+	      <input type="number" step="0.001" name="lat" class="form-control" size="50" id="lat" placeholder="Latitude" required>
+	    </div>
+	    <div class="form-group">
+	      <input type="number" step="0.001" name="lon" class="form-control" size="50" id="lon" placeholder="Longitude" required>
+	    </div>
+	    <div class="form-group"> 
+			<input type="text" class="form-control" size="50" name="neighborhood" id="neighborhood" placeholder="Enter Neighborhood's Name" required>
+		</div>
+	    <div class="form-group"> 
+			<input type="text" class="form-control" size="50" name="city" id="city" placeholder="Enter City." required>
+		</div>
+		<div class="form-group"> 
+			<input type="text" class="form-control" size="50" name="state" id="state" placeholder="Enter State." required>
+		</div>
+	    <button type="submit" class="btn btn-danger" value="Submit">Submit</button>
+	    </fieldset>	    
+	  </form>     
+  </div>
+</div>
+
+</body>
+</html>

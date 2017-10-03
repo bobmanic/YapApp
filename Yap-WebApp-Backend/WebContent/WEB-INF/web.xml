@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    version="3.0">
+  
+  <display-name>YapWebsite</display-name>  
+
+  <servlet>
+	  <servlet-name>Yap Landing Servlet</servlet-name>
+	  <servlet-class>servlet.Landing</servlet-class>
+  </servlet>
+
+  <welcome-file-list>
+	  <welcome-file>home.html</welcome-file>	  
+  </welcome-file-list>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Landing Servlet</servlet-name>
+	  <url-pattern>/Landing</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>Yap LogOut Servlet</servlet-name>
+	  <servlet-class>servlet.LogOut</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap LogOut Servlet</servlet-name>
+	  <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	  <servlet-name>Yap Build Add Review Servlet</servlet-name>
+	  <servlet-class>servlet.BuildAddReview</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Build Add Review Servlet</servlet-name>
+	  <url-pattern>/BuildAddReview</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>Yap User Reviews Servlet</servlet-name>
+	  <servlet-class>servlet.UserReviews</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap User Reviews Servlet</servlet-name>
+	  <url-pattern>/UserReviews</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>Yap Delete Review Servlet</servlet-name>
+	  <servlet-class>servlet.DeleteReview</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Delete Review Servlet</servlet-name>
+	  <url-pattern>/DeleteReview</url-pattern>
+  </servlet-mapping>
+  
+<servlet>
+	  <servlet-name>Yap Edit Review Servlet</servlet-name>
+	  <servlet-class>servlet.EditReview</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Edit Review Servlet</servlet-name>
+	  <url-pattern>/EditReview</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>Yap Update Review Servlet</servlet-name>
+	  <servlet-class>servlet.UpdateReview</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Update Review Servlet</servlet-name>
+	  <url-pattern>/UpdateReview</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>Yap Search Reviews Servlet</servlet-name>
+	  <servlet-class>servlet.SearchReviews</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Search Reviews Servlet</servlet-name>
+	  <url-pattern>/SearchReviews</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+	  <servlet-name>Yap Search Reviews Form Servlet</servlet-name>
+	  <servlet-class>servlet.SearchReviewsPage</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Search Reviews Form Servlet</servlet-name>
+	  <url-pattern>/SearchReviewsPage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>Yap Business Registration Servlet</servlet-name>
+	  <servlet-class>servlet.SubmitBusiness</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Business Registration Servlet</servlet-name>
+	  <url-pattern>/BusinessRegistration</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>All Yap Business Servlet</servlet-name>
+	  <servlet-class>servlet.AllBusiness</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>All Yap Business Servlet</servlet-name>
+	  <url-pattern>/AllBusiness</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	  <servlet-name>Business Reviews Servlet</servlet-name>
+	  <servlet-class>servlet.AllReviews</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Business Reviews Servlet</servlet-name>
+	  <url-pattern>/AllReviews</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	  <servlet-name>Yap Add Review Servlet</servlet-name>
+	  <servlet-class>servlet.AddReview</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Add Review Servlet</servlet-name>
+	  <url-pattern>/AddReview</url-pattern>
+  </servlet-mapping>  
+
+  <servlet>
+	  <servlet-name>Yap User Registration Servlet</servlet-name>
+	  <servlet-class>servlet.UserRegistration</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap User Registration Servlet</servlet-name>
+	  <url-pattern>/UserRegistration</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+	  <servlet-name>Yap API Servlet</servlet-name>
+	  <servlet-class>api.Authenticate</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap API Servlet</servlet-name>
+	  <url-pattern>/api</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+	  <servlet-name>Yap Dev Console Servlet</servlet-name>
+	  <servlet-class>api.DevConsole</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Dev Console Servlet</servlet-name>
+	  <url-pattern>/api/console</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+	  <servlet-name>Yap Add App Servlet</servlet-name>
+	  <servlet-class>api.RegisterApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Add App Servlet</servlet-name>
+	  <url-pattern>/RegisterDeveloper</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+	  <servlet-name>Yap Delete App Servlet</servlet-name>
+	  <servlet-class>api.DeleteApp</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Delete App Servlet</servlet-name>
+	  <url-pattern>/DeleteApp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	  <servlet-name>Yap Vote Servlet</servlet-name>
+	  <servlet-class>servlet.CastVote</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	  <servlet-name>Yap Vote Servlet</servlet-name>
+	  <url-pattern>/CastVote</url-pattern>
+  </servlet-mapping>
+  
+   <session-config>
+    <session-timeout>15</session-timeout>
+  </session-config>
+  
+</web-app>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <title>Welcome to Yap!!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+  .jumbotron {
+  	  margin-top: 0px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      margin-left: 0px;
+      background-color: #EE7600;
+      color: #fff;
+  }
+  
+  .c-select {
+      background-color: #fff;
+      color: #CD6600;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <p>Developers Welcome! Register your App here for an App ID!</p>  
+  <div class="container">
+	  <form action="/Yap/RegisterDeveloper" method="post" role="form">
+	  <fieldset>		
+		<div class="form-group"> 
+			<input type="text" class="form-control" size="50" name="app_name" id="app_name" placeholder="Enter Your Application's Name." required>
+		</div>
+	    <button type="submit" class="btn btn-danger" value="Submit">Submit</button>
+	    </fieldset>
+	  </form>
+  </div>
+</div>
+
+</body>
+</html>
